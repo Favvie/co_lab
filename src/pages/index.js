@@ -166,7 +166,7 @@ export default function Home() {
           <div className='grid grid-cols-1 md:grid-cols-3 gap-x-8'>
             <div className='relative'>
               <Image src={P1} />
-              <a href='https://strive-mts.vercel.app' className='font-semibold uppercase my-6 block '>TempOwn</a>
+              <a href='https://tempown-clone.vercel.app' className='font-semibold uppercase my-6 block '>TempOwn</a>
              <div class=" absolute inset-0 hover:bg-opacity-50 flex items-center justify-center w-full h-full">
              
             </div>
@@ -177,7 +177,7 @@ export default function Home() {
 
               <Image src={P1} className='h-full object-fill' />
               </div>
-              <a href='https://google.com' className='font-semibold uppercase my-6 block'>E-commerce Services</a>
+              <a href='https://strive-mts.vercel.app' className='font-semibold uppercase my-6 block'>Project Management</a>
             </div>
            
             <div>
