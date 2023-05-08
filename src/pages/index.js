@@ -22,7 +22,7 @@ export default function Home() {
 
   useEffect(() => {
     async function repoFunc() {
-      const token = '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'
+      const token = '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'
       try {
         
         const response = await fetch('https://api.github.com/users/favvie/repos?sort=created&per_page=5', {
