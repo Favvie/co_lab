@@ -25,9 +25,9 @@ export default function Home() {
       try {
         
         const response = await fetch('https://api.github.com/users/favvie/repos?sort=created&per_page=5', {
-          headers: {
-            Authorization: `Bearer ${process.env.GITHUB_TOKEN}`,
-          },
+          // headers: {
+          //   Authorization: `Bearer ${process.env.GITHUB_TOKEN}`,
+          // },
         })
         const repoDetails = await response.json()
         setRepos(repoDetails)      
